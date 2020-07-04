@@ -1,8 +1,44 @@
-/*
+/* 
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
-*/
+  */
+.homepage {
+  color: white;
+  font-size: large;
+  background-image: url(https://i.postimg.cc/FK3FF18V/landing.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 700px;
+  margin: 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.discription {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.yeezy {
+  background-color: #00b172;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.spotify {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.kanye {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0;
+}
